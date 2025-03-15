@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to Our Website</h1>
+    <nav>
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a> |
+        <a href="forgot_password.html">Forgot Password</a>
+    </nav>
+</body>
+</html>
+
+<!-- Login Page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="">
+        <label>Email:</label>
+        <input type="email" required><br><br>
+        <label>Password:</label>
+        <input type="password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+    <a href="forgot_password.html">Forgot Password?</a><br>
+    <a href="register.html">Create an Account</a><br>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+
+<!-- Registration Page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <fieldset>
+            <legend>Signup</legend>
+            <label>Name:</label>
+            <input type="text" placeholder="Type Name"><br><br>
+            <label>ID:</label>
+            <input type="number" required><br><br>
+            <label>Email:</label>
+            <input type="email" required><br><br>
+            <label>Password:</label>
+            <input type="password" required><br><br>
+            <label>DOB:</label>
+            <input type="date"><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other<br><br>
+            <label>Department:</label>
+            <select>
+                <option>CS</option>
+                <option>CSE</option>
+                <option>CIS</option>
+                <option>SE</option>
+            </select><br><br>
+            <label>Address:</label>
+            <textarea></textarea><br><br>
+            <label>Upload Image:</label>
+            <input type="file"><br><br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <a href="login.html">Already have an account? Login</a><br>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+
+<!-- Forgot Password Page -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+</head>
+<body>
+    <h1>Reset Password</h1>
+    <form action="">
+        <label>Email:</label>
+        <input type="email" required><br><br>
+        <input type="submit" value="Send Reset Link">
+    </form>
+    <a href="login.html">Back to Login</a><br>
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
